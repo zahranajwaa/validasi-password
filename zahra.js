@@ -6,7 +6,7 @@ const submitButton = document.getElementById("submit-button");
 const password = inputPassword.value;
 
 if (password.length > 7) {
-errorMessage.textContent = "Password Valid";
+errorMessage.textContent = password;
 errorMessage.style.color = "green";
 } else {
     errorMessage.textContent = "password terlalu pendek";
